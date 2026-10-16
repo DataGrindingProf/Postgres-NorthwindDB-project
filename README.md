@@ -1,4 +1,3 @@
-# Postgres-NorthwindDB-project
 # PostgreSQL Data Analysis: Northwind DB Portfolio
 
 This project demonstrates my proficiency in writing advanced PostgreSQL queries, optimizing database performance, and solving business and analytical problems using the classic Northwind dataset.
