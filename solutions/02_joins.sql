@@ -1,5 +1,5 @@
 /*
-Find customers and the employees who handle their orders.
+1) Find customers and the employees who handle their orders.
 
 Criteria:
 - Customers and employees from the city of London
@@ -15,7 +15,7 @@ JOIN shippers AS s ON o.ship_via = s.shipper_id
 WHERE e.city = 'London' and c.city = 'London' and o.ship_via = 1
 
 /*
-Find active (see the discontinued column) products from the Beverages and Seafood categories that have fewer than 20 units in stock.
+2) Find active (see the discontinued column) products from the Beverages and Seafood categories that have fewer than 20 units in stock.
 
 Criteria:
 - Output the product names, the number of units in stock, the supplier’s contact name, and their phone number
@@ -30,7 +30,7 @@ WHERE discontinued != 1 AND units_in_stock < 20 AND category_name IN ('Beverages
 ORDER BY units_in_stock
 
 /*
-For each category, calculate the total number of ordered units; display only categories with a sum > 500.
+3) For each category, calculate the total number of ordered units; display only categories with a sum > 500.
 
 Criteria:
 -  Output: category_name, total_qty (rename the field for the total number of ordered units)
