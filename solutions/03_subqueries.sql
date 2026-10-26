@@ -12,7 +12,7 @@ WHERE p.units_in_stock < (SELECT AVG(quantity)
 							GROUP BY product_id 
 							ORDER BY AVG(quantity)
 							LIMIT 1
-)
+						 )
 ORDER BY units_in_stock DESC
 
 /*
