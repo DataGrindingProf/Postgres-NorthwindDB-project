@@ -4,3 +4,4 @@ It is assumed that the amount for one order is the sum of all its rows from orde
 $$
 unit_price * quantity * (1 - discount)
 $$
+*/
