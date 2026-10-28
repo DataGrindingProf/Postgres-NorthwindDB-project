@@ -9,7 +9,7 @@ The Northwind database is a sample database that represents a fictional trading 
 * **Complex Joins:** Combining multiple tables (`Orders`, `Customers`, `Employees`, etc.) to extract meaningful insights.
 * **Aggregations & Analytics:** Using `GROUP BY`, `HAVING`, and window functions (`RANK()`, `PARTITION BY`).
 * **Subqueries & CTEs:** Designing readable and efficient queries with Common Table Expressions.
-* **Database Optimization:** (Optional, if you did this) Indexing and query execution plan analysis (`EXPLAIN ANALYZE`).
+* **Database Optimization:** Indexing and query execution plan analysis (`EXPLAIN ANALYZE`).
 
 ## Repository Structure
 * `/schema` - Northwind database schema and data initialization scripts.
